@@ -1,6 +1,6 @@
 export const useDebounce = () => {
     function debounce(fn, delay) {
-        const timeout = null
+        let timeout = null
         return (...args) => {
             clearTimeout(timeout)
             timeout = setTimeout(() => {
