@@ -128,6 +128,7 @@
         :total-pages="totalPages"
         :current-page="currentPage"
         :users="users"
+        :paginated-users="paginatedUsers"
         @next="currentPage += 1"
         @prev="currentPage -= 1"
     />
@@ -135,12 +136,11 @@
 
 <script setup>
 import { onMounted, ref, computed, watch } from 'vue'
-import axios from 'axios'
 
-import UsersInfoBlock from './UsersInfoBlock.vue'
+import { useGetUsers } from '../../utils/useGetUsers'
+import { useCheckboxHandler } from '../../utils/useCheckboxHandler'
+import { UsersInfoBlock } from '../users-info'
 import TablePagination from './TablePagination.vue'
-import { useGetUsers } from '../utils/useGetUsers'
-import { useCheckboxHandler } from '../utils/useCheckboxHandler'
 
 const emit = defineEmits(['updateUsers'])
 const props = defineProps({
@@ -214,6 +214,13 @@ watch(
     () => props.users,
     (newUsers) => {
         sortedUsers.value = [...newUsers]
+    },
+)
+
+watch(
+    () => paginatedUsers.value,
+    () => {
+        if (paginatedUsers.value.length < usersPerPage) currentPage.value = 1
     },
 )
 
