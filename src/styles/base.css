@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@font-face {
+  font-family: "Mona Sans";
+  src:
+    url("Mona-Sans.woff2") format("woff2 supports variations"),
+    url("Mona-Sans.woff2") format("woff2-variations");
+  font-weight: 200 900;
+  font-stretch: 75% 125%;
+  font-feature-settings:
+    "ss01" on,
+    "ss03" on,
+    "ss05" on;
+}
+
+.main {
+  height: 100vh;
+  margin: 0 auto;
+  max-width: 1440px;
+}

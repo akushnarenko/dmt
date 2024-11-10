@@ -1,0 +1,15 @@
+@layer components {
+  .btn-1 {
+    width: 137px;
+    height: 30px;
+    @apply text-size-4;
+  }
+}
+
+.pagination-btns button:disabled img {
+  opacity: 0.6;
+}
+
+.pagination-btns button:first-child img {
+  transform: rotate(180deg);
+}

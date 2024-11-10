@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "name": "John Carter",
+    "email": "john@google.com",
+    "phone": "(414) 907 - 1274",
+    "location": "United States",
+    "company": "Google",
+    "status": "Online",
+    "avatar": "../src/assets/avatars/avatar1.png",
+    "companyImg": "../src/assets/companies/google.png"
+  },
+  {
+    "id": 2,
+    "name": "Sophie Moore",
+    "email": "sophie@webflow.com",
+    "phone": "(240) 480 - 4277",
+    "location": "United Kingdom",
+    "company": "Webflow",
+    "status": "Offline",
+    "avatar": "../src/assets/avatars/avatar2.png",
+    "companyImg": "../src/assets/companies/weblow.png"
+  },
+  {
+    "id": 3,
+    "name": "Matt Cannon",
+    "email": "matt@facebook.com",
+    "phone": "(318) 698 - 9889",
+    "location": "Australia",
+    "company": "Facebook",
+    "status": "Offline",
+    "avatar": "../src/assets/avatars/avatar3.png",
+    "companyImg": "../src/assets/companies/facebook.png"
+  },
+  {
+    "id": 4,
+    "name": "Graham Hills",
+    "email": "graham@twitter.com",
+    "phone": "(540) 627 - 3890",
+    "location": "India",
+    "company": "Twitter",
+    "status": "Online",
+    "avatar": "../src/assets/avatars/avatar4.png",
+    "companyImg": "../src/assets/companies/twitter.png"
+  },
+  {
+    "id": 5,
+    "name": "Sandy Houston",
+    "email": "sandy@youtube.com",
+    "phone": "(440) 410 - 3848",
+    "location": "Canada",
+    "company": "YouTube",
+    "status": "Offline",
+    "avatar": "../src/assets/avatars/avatar5.png",
+    "companyImg": "../src/assets/companies/youtube.png"
+  },
+  {
+    "id": 6,
+    "name": "Andy Smith",
+    "email": "andy@reddit.com",
+    "phone": "(504) 458 - 3268",
+    "location": "United States",
+    "company": "Reddit",
+    "status": "Online",
+    "avatar": "../src/assets/avatars/avatar6.png",
+    "companyImg": "../src/assets/companies/reddit.png"
+  },
+  {
+    "id": 7,
+    "name": "Lilly Woods",
+    "email": "lilly@spotify.com",
+    "phone": "(361) 692 - 1819",
+    "location": "Australia",
+    "company": "Spotify",
+    "status": "Offline",
+    "avatar": "../src/assets/avatars/avatar7.png",
+    "companyImg": "../src/assets/companies/spotify.png"
+  },
+  {
+    "id": 8,
+    "name": "Patrick Meyer",
+    "email": "patrick@pinterest.com",
+    "phone": "(760) 582 - 5670",
+    "location": "United Kingdom",
+    "company": "Pinterest",
+    "status": "Online",
+    "avatar": "../src/assets/avatars/avatar8.png",
+    "companyImg": "../src/assets/companies/pinterest.png"
+  },
+  {
+    "id": 9,
+    "name": "Frances Willen",
+    "email": "frances@twitch.com",
+    "phone": "(216) 496 - 5864",
+    "location": "Canada",
+    "company": "Twitch",
+    "status": "Offline",
+    "avatar": "../src/assets/avatars/avatar9.png",
+    "companyImg": "../src/assets/companies/twitch.png"
+  },
+  {
+    "id": 10,
+    "name": "Ernest Houston",
+    "email": "ernest@linkedin.com",
+    "phone": "(704) 339 - 8813",
+    "location": "India",
+    "company": "LinkedIn",
+    "status": "Offline",
+    "avatar": "../src/assets/avatars/avatar5.png",
+    "companyImg": "../src/assets/companies/lickedIn.png"
+  },
+  {
+    "id": 11,
+    "name": "Claire Robinson",
+    "email": "claire@apple.com",
+    "phone": "(304) 421 - 8932",
+    "location": "United States",
+    "company": "Apple",
+    "status": "Online",
+    "avatar": "../src/assets/avatars/avatar3.png",
+    "companyImg": ""
+  },
+  {
+    "id": 12,
+    "name": "David King",
+    "email": "david@amazon.com",
+    "phone": "(207) 351 - 7429",
+    "location": "Canada",
+    "company": "Amazon",
+    "status": "Offline",
+    "avatar": "../src/assets/avatars/avatar1.png",
+    "companyImg": ""
+  },
+  {
+    "id": 13,
+    "name": "Lucy Allen",
+    "email": "lucy@microsoft.com",
+    "phone": "(619) 817 - 4345",
+    "location": "Australia",
+    "company": "Microsoft",
+    "status": "Online",
+    "avatar": "../src/assets/avatars/avatar4.png",
+    "companyImg": ""
+  },
+  {
+    "id": 14,
+    "name": "Jack Daniels",
+    "email": "jack@netflix.com",
+    "phone": "(514) 512 - 9988",
+    "location": "United Kingdom",
+    "company": "Netflix",
+    "status": "Offline",
+    "avatar": "../src/assets/avatars/avatar6.png",
+    "companyImg": ""
+  },
+  {
+    "id": 15,
+    "name": "Amelia Brown",
+    "email": "amelia@tesla.com",
+    "phone": "(206) 832 - 2456",
+    "location": "United States",
+    "company": "Tesla",
+    "status": "Online",
+    "avatar": "../src/assets/avatars/avatar7.png",
+    "companyImg": ""
+  },
+  {
+    "id": 16,
+    "name": "Oliver Martin",
+    "email": "oliver@adobe.com",
+    "phone": "(412) 317 - 7789",
+    "location": "India",
+    "company": "Adobe",
+    "status": "Offline",
+    "avatar": "../src/assets/avatars/avatar8.png",
+    "companyImg": ""
+  },
+  {
+    "id": 17,
+    "name": "Ella Scott",
+    "email": "ella@hp.com",
+    "phone": "(320) 612 - 4635",
+    "location": "Canada",
+    "company": "HP",
+    "status": "Online",
+    "avatar": "../src/assets/avatars/avatar1.png",
+    "companyImg": ""
+  },
+  {
+    "id": 18,
+    "name": "Sophia Young",
+    "email": "sophia@ibm.com",
+    "phone": "(402) 678 - 2934",
+    "location": "Australia",
+    "company": "IBM",
+    "status": "Offline",
+    "avatar": "../src/assets/avatars/avatar9.png",
+    "companyImg": ""
+  },
+  {
+    "id": 19,
+    "name": "Ethan Turner",
+    "email": "ethan@oracle.com",
+    "phone": "(406) 419 - 3741",
+    "location": "United Kingdom",
+    "company": "Oracle",
+    "status": "Online",
+    "avatar": "../src/assets/avatars/avatar2.png",
+    "companyImg": ""
+  },
+  {
+    "id": 20,
+    "name": "Grace Mitchell",
+    "email": "grace@salesforce.com",
+    "phone": "(405) 301 - 8592",
+    "location": "United States",
+    "company": "Salesforce",
+    "status": "Offline",
+    "avatar": "../src/assets/avatars/avatar4.png",
+    "companyImg": ""
+  }
+]

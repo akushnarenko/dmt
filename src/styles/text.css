@@ -1,0 +1,104 @@
+@layer components {
+  .text-style-1 {
+    font-family: Work Sans;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+
+  .text-style-2 {
+    font-family: "Mona Sans", sans-serif;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+
+  .text-size-1 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+  }
+
+  .text-size-2 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 22px;
+  }
+
+  .text-size-3 {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+  }
+
+  .text-size-4 {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    color: theme("colors.white1");
+  }
+
+  .text-size-5 {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+  }
+
+  .text-size-6 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+  }
+
+  .text-size-7 {
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 10px;
+  }
+
+  .text-size-8 {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 14px;
+  }
+
+  .text-size-9 {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+  }
+
+  .text-size-10 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 22px;
+  }
+}
+
+.text-color-1 {
+  @apply text-green3;
+}
+
+.text-color-2 {
+  @apply text-gray6;
+}
+
+.status-text::before {
+  content: "";
+  display: inline-block;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  margin-right: 4px;
+  margin-left: 6px;
+  margin-bottom: 2.5px;
+}
+
+.status-container-1 .status-text::before {
+  @apply bg-green3;
+}
+
+.status-container-2 .status-text::before {
+  @apply bg-gray6;
+}

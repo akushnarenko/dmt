@@ -1,0 +1,25 @@
+:root {
+  --pink1: #cb3cff;
+  --pink2: linear-gradient(#cb3cff, #7f25fb);
+
+  --blue1: #0b1739;
+  --blue2: #21c3fc;
+  --blue3: #0e43fb;
+
+  --purple1: #8951ff;
+
+  --orange1: #fdb52a;
+
+  --black1: #081028;
+  --black2: #0a1330;
+  --black3: #0b1739;
+
+  --gray1: #7e89ac;
+  --gray2: #aeb9e1;
+  --gray3: #d1dbf9;
+  --gray4: #d9e1fa;
+
+  --white1: #ffffff;
+
+  --green1: "#05C168";
+}

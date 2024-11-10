@@ -1,0 +1,15 @@
+table {
+  @apply bg-blue1;
+}
+
+tbody tr:nth-child(odd) {
+  @apply bg-black2;
+}
+
+.status-container-1 {
+  @apply w-[50px] h-[18px] border-[0.6px] border-green1 bg-green2 rounded-sm;
+}
+
+.status-container-2 {
+  @apply w-[50px] h-[18px] border-[0.6px] border-gray7 bg-gray5 rounded-sm;
+}
