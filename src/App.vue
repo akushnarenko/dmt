@@ -8,7 +8,7 @@ const toggleSidebar = () => (isSidebarOpen.value = !isSidebarOpen.value)
 
 <template>
     <div class="main">
-        <button class="absolute left-[28px] top-[45.56px] flex gap-[2.5px]" @click="toggleSidebar">
+        <button class="absolute left-[28px] top-[45.56px] flex gap-[2.5px] hover:scale-[1.5]" @click="toggleSidebar">
             <img src="../src/assets/commonIcons/arrow-d.png" class="rotate-90" alt="" />
             <img src="../src/assets/commonIcons/arrow-d.png" class="-rotate-90" alt="" />
         </button>

@@ -59,7 +59,7 @@
                 </li>
                 <li class="flex justify-between h-[42px] items-center">
                     <div class="flex items-center gap-1.5">
-                        <img width="14" height="14" src="../assets/sidebar/.png" alt="" />
+                        <img width="14" height="14" src="../assets/commonIcons/name.png" alt="" />
                         <span class="text-style-2 text-size-6 text-gray2">Users</span>
                     </div>
                     <img

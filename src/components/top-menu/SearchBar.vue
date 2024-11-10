@@ -9,7 +9,7 @@
             v-model="inputText"
             placeholder="Search for..."
             class="input ml-[50px]"
-            @input="filterUsers"
+            @input="filterUser"
         />
     </div>
 </template>
@@ -29,7 +29,8 @@ const props = defineProps({
 const emit = defineEmits(['updateUsers'])
 
 const inputText = ref('')
-function filterUsers() {
+
+const filterUser = debounce(() => {
     const query = inputText.value.toLowerCase()
 
     const filtered = !query
@@ -41,6 +42,6 @@ function filterUsers() {
                   user.company.toLowerCase().includes(query) ||
                   user.phone.includes(query),
           )
-    debounce(emit('updateUsers', filtered), 500)
-}
+    emit('updateUsers', filtered)
+}, 500)
 </script>

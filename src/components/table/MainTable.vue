@@ -5,8 +5,13 @@
             class="flex justify-between border-b-[0.6px] border-[#343B4F] items-center pl-[35px] pr-[53px] pt-[28.06px] pb-[23px]"
         >
             <h2 class="text-style-1 text-size-1 text-white1">All Users</h2>
-            <span class="text-style-2 text-size-6 text-gray2">
-                <strong class="text-pink1">1-10</strong> of {{ users.length }}
+            <span v-if="paginatedUsers.length" class="text-style-2 text-size-6 text-gray2">
+                <strong class="text-pink1"> 1-{{ paginatedUsers.length }}</strong> of
+                {{ users.length }}
+            </span>
+            <span v-else class="text-style-2 text-size-6 text-gray2">
+                <strong class="text-pink1"> 0</strong> of
+                {{ users.length }}
             </span>
         </div>
 
@@ -36,10 +41,10 @@
                             </span>
                             <div class="flex flex-col pl-1.5 gap-0.5">
                                 <button>
-                                    <img src="../assets/commonIcons/arrow-d.png" class="rotate-180" alt="" />
+                                    <img src="../../assets/commonIcons/arrow-d.png" class="rotate-180" alt="" />
                                 </button>
                                 <button>
-                                    <img src="../assets/commonIcons/arrow-d.png" alt="" />
+                                    <img src="../../assets/commonIcons/arrow-d.png" alt="" />
                                 </button>
                             </div>
                         </div>

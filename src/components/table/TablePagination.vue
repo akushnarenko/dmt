@@ -1,6 +1,8 @@
 <template>
     <div class="flex justify-between">
-        <span class="text-style-2 text-size-5 text-white1"> 1-10 of {{ users.length }} </span>
+        <span class="text-style-2 text-size-5 text-white1">
+            {{ paginatedUsers.length ? 1 : 0 }}-{{ paginatedUsers.length }} of {{ users.length }}
+        </span>
 
         <div class="pagination-controls flex items-center gap-[59px]">
             <div class="flex items-center gap-3">
@@ -9,7 +11,7 @@
                     class="dropdown flex items-center gap-[7px] h-[26px] bg-[#0A1330] border-[#0B1739] p-1.5 rounded-[4px]"
                 >
                     <span class="text-style-2 text-size-8 text-gray4">10</span>
-                    <img src="../assets/commonIcons/arrow-d.png" alt="" />
+                    <img src="../../assets/commonIcons/arrow-d.png" alt="" />
                 </div>
             </div>
 
